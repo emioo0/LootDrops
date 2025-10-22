@@ -159,13 +159,6 @@ loot:
       damageable: false
 ```
 
-**Wie funktioniert’s?**
-
-* `rolls.min/max` bestimmt, wie viele Einträge gewürfelt werden.
-* `weight` steuert die Wahrscheinlichkeit (höher = häufiger).
-* Caps (`iron-armor-max`, `diamond-armor-max`, `weapons-max`) begrenzen Sets (z. B. Full-Iron wird verhindert).
-* Items landen **zufällig verteilt** in unterschiedlichen Slots.
-
 ---
 
 ## Schematic-Hinweise
@@ -176,22 +169,6 @@ loot:
 * **Luft wird ignoriert** → Terrain bleibt.
 * Typische Markerblöcke (z. B. rotes Wool/Concrete, `LIGHT`, `BARRIER`, `STRUCTURE_VOID`) werden **automatisch entfernt**.
 * Beim Entfernen des Drops werden **alle gesetzten Blöcke** auf ihren **Originalzustand** zurückgesetzt (kein kaputtes Terrain).
-
----
-
-## Bauen (Maven)
-
-Voraussetzungen: **JDK 21**, Maven.
-
-```bash
-mvn clean package
-```
-
-### Wichtige POM-Einträge (bereits enthalten)
-
-* `paper-api:1.21.4-R0.1-SNAPSHOT` (scope `provided`)
-* `worldedit-bukkit:7.2.18` (scope `provided`)
-* Repositories: Paper & EngineHub
 
 ---
 
@@ -207,7 +184,7 @@ mvn clean package
 ## Support
 
 * **Bugs/Feature-Requests:** GitHub Issues
-* **Kontakt:** Bitte hier deine E-Mail/Discord eintragen.
+* **Kontakt:** emioo0@gmx.de / Discord: emioo01
 
 ---
 
