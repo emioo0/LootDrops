@@ -1,0 +1,4 @@
+name: LootDrops
+version: '1.0'
+main: de.emilio.lootDrops.Main
+api-version: '1.21'
